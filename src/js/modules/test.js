@@ -1,8 +1,7 @@
 // 1. Selectors
 import { elements } from './DOMelements';
-// 2. Actions
 
 const { htmlTag } = elements;
-// 3. Events
+// 2. Actions
 
-console.log(htmlTag);
+// 3. Events

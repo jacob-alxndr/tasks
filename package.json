@@ -4,9 +4,8 @@
   "description": "Starter Build",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js",
-    "openBuild": "open dist/index.html"
+    "dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js && open dist/index.html"
   },
   "author": "Jacob Martinez",
   "license": "ISC",
