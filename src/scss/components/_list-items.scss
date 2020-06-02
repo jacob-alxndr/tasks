@@ -27,6 +27,9 @@
             &:focus {
                 border-bottom: 1px solid var(--blue);
             }
+            @include respond(phone) {
+                font-size: 1.6rem;
+            }
         }
         .open {
             pointer-events: all;
