@@ -1,5 +1,3 @@
-// 1.Importing our own JS files
-
-import test from './modules/test';
-
+// 1.Imports
+import app from './modules/app';
 import '../scss/main.scss';

@@ -16,93 +16,60 @@
     <!-- <meta http-equiv="refresh" content="20" > -->
 </head>
 
-<body>
-    <!-- 
-    <section class="navigation">
-
-        <ul class="navigation__list">
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">test </a>
-            </li>
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">test </a>
-            </li>
-            <li class="navigation__item">
-                <a href="#" class="navigation__link"> test</a>
-            </li>
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">test </a>
-            </li>
-        </ul>
-
-    </section> -->
+<body class="grid">
+    <section class="todo-app">
 
 
-
-    <header class="header">
-
-    </header>
-
-
-
-    <main class="main">
-
-        <div class="u-container grid">
-            <h1 class="item">
-                TO BUILD OR NOT TO BUILD...
-            </h1>
-        </div>
-
-        <!-- <section class="">
-        <div class="u-container">
-            <div class="flex-row ">
-                <div class="flex-row__box">
-                    
-                </div>
+        <div class="todo">
+            <div class="heading">
+                <h1 class="">
+                    Tasks
+                </h1>
+                <p class="paragraph paragraph--grey">List tasks, execute tasks, repeat.</p>
             </div>
-        </div>
-    </section>
 
-    <section class="">
-            <div class="u-container">
-                <div class="flex-row">
-                    <div class="flex-row__box">
+            <form action="submit">
+                <fieldset>
+                    <!-- <label for="task">Stay Focused</label> -->
+                    <div class="input-group">
+                        <input type="text" name="task" placeholder="Add Task" required autocomplete="off">
+                        <button class="btn btn--add-item">+ Add Task</button>
                     </div>
-                </div>
-            </div>
-        </section> -->
 
+                </fieldset>
 
-    </main>
+            </form>
 
-    <footer class="footer">
+            <ul class="items">
 
-        <div class="footer__navigation">
+                <!-- <li class="item">
+                    <div class="item-group">
+                        <input type="checkbox" name="complete" id="">
+                        <p class="task">This is a task</p>
+                        <input value='This is a task' type="text">
+                    </div>
 
-            <ul class="navigation__list">
-                <li class="navigation__item">
-                    <a href="#" class="navigation__link"> </a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#" class="navigation__link"> </a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#" class="navigation__link"> </a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#" class="navigation__link"> </a>
-                </li>
+                    <div class="buttons">
+                        <button class="btn btn--edit">Edit</button>
+                        <button class="btn btn--delete">Delete</button>
+                    </div>
+                </li> -->
+                <!-- <li class="item">
+                    <div class="item-group">
+                        <input type="checkbox" name="complete" id="">
+                        <p class="task">This is a task</p>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="btn btn--edit">Edit</button>
+                        <button class="btn btn--delete">Delete</button>
+                    </div>
+                </li> -->
             </ul>
 
         </div>
 
-        <div class="footer__copyright">
-            <p>
-                &copy;
-            </p>
-        </div>
-
-    </footer>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,28 @@
+.todo-app {
+    grid-column: col-start 2 / col-end 6;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    @include respond(tab-land2) {
+        grid-column: content-start / content-end;
+    }
+    @include respond(phone) {
+        grid-column: page-start / page-end;
+    }
+    .todo {
+        padding: var(--medium) var(--small);
+        width: 100%;
+        border: 1px solid var(--blue);
+        border-radius: var(--xxs);
+        background-color: transparent;
+        animation: fadeIn 1s ease;
+        @include boxShadow;
+
+        @include respond(phone) {
+            height: 100%;
+            border: none;
+            padding: var(--medium) var(--medium);
+        }
+    }
+}

@@ -1,7 +1,7 @@
 // Import partials from partial folders
 
 // ABSTRACTS
-@import "abstracts/functions";
+// @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
@@ -13,15 +13,18 @@
 
 // COMPONENTS
 @import "components/buttons";
-@import "components/card";
+// @import "components/card";
+@import "components/form";
 @import "components/grid";
+@import "components/list-items";
+@import "components/checkbox";
 
 // LAYOUT
-@import "layout/footer";
-@import "layout/hero";
-@import "layout/header";
-@import "layout/menu";
-@import "layout/navigation";
+// @import "layout/footer";
+// @import "layout/hero";
+// @import "layout/header";
+// @import "layout/menu";
+// @import "layout/navigation";
 
 // PAGES
-@import "pages/home";
+@import "pages/app";

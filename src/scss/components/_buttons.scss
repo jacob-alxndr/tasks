@@ -1,25 +1,35 @@
-// .btn{
-//     font-weight: 100;
-//     padding: 1rem 1.5rem;
-//     background-color: $white;
-//     cursor: pointer;
-  
-//     &--main{
-//       border-radius: 5rem;
-//       position: relative;
-//       background-color: $white;
-//       color: $white;
-//       border: 2px solid transparent;
-//       padding: 1.3rem 3.3rem;
-//       font-size: $h4;
-//       text-transform: uppercase;
-//       letter-spacing: 2px;
-//       animation: fadeIn 1.8s ease-in-out;
-//       transition: all .5s;
-      
-//       &:hover{
-    
-//       }
-//     }
-   
-//   }
+.btn {
+    padding: var(--xxs) var(--xs);
+    font-size: var(--p-small);
+    background-color: var(--blue);
+    color: var(--white);
+    border: 1px solid transparent;
+    white-space: nowrap;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    max-height: 4rem;
+    &:hover {
+        background-color: var(--blue-dark);
+    }
+    &.close {
+        display: none;
+    }
+    &--submit {
+        background-color: var(--white);
+        color: var(--blue);
+        border: 1px solid var(--blue);
+        &:hover {
+            background-color: var(--grey1);
+        }
+    }
+    &--edit {
+        max-height: 3rem;
+    }
+    &--delete {
+        background-color: var(--white);
+        color: var(--blue);
+        &:hover {
+            background-color: var(--grey1);
+        }
+    }
+}

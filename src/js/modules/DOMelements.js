@@ -1,4 +1,7 @@
-export const elements = {
-  htmlTag: document.querySelector('html'),
-  aTags: document.querySelectorAll('a'),
+// 1. Exports
+const elements = {
+  form: document.querySelector('form'),
+  list: document.querySelector('ul'),
+  deleteBtns: document.querySelectorAll('.btn--delete'),
 };
+export default elements;
