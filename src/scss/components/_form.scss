@@ -23,6 +23,9 @@ form {
                     box-shadow: 0px 0px 5px #0f00e48a;
                     // outline: var(--blue-dark);
                 }
+                @include respond(phone) {
+                    font-size: 1.6rem;
+                }
             }
             .btn {
                 height: 100%;
